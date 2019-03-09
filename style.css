@@ -48,3 +48,42 @@ body{
   background-color: #ffffff;
   padding: 5%;
 }
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 2px;
+  margin-bottom: 12px;
+  resize: vertical;
+  min-height: 35px;
+  max-height: 100px;
+}
+
+input[type=submit] {
+  background-color:#ff4300;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius:15px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #e63900;
+}
+
+.container {
+  width: 50%;
+  max-height: 75%;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-left: 24%;
+}
+
+.column {
+  width: 60%;
+  margin: 1% 0 0 18%;
+  padding: 20px;
+}
